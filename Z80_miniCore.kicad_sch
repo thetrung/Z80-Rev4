@@ -12362,7 +12362,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-32_W15.24mm"
+		(property "Footprint" "Package_LCC:PLCC-32_THT-Socket"
 			(at 165.1 50.8 0)
 			(hide yes)
 			(show_name no)
