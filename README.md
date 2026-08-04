@@ -11,4 +11,4 @@ I have never had a real working Z80 before so this board is designed to test tha
 ![Alt](https://github.com/thetrung/Z80-Rev4/blob/main/SilkScreen.png)
 
 ### Schematic 
-![Alt](https://github.com/thetrung/Z80-Rev4/blob/main/Schematic.png)
+![Alt](https://github.com/thetrung/Z80-Rev4/blob/32K-SRAM/Schematic.png)
