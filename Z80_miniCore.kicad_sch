@@ -6374,6 +6374,12 @@
 		(uuid "5928957b-7b8f-4f28-9ba8-ee717e8337b2")
 	)
 	(junction
+		(at 60.96 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "609d9ece-da56-4823-bd21-798377868f37")
+	)
+	(junction
 		(at 132.08 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6472,6 +6478,10 @@
 	(no_connect
 		(at 90.17 134.62)
 		(uuid "d5fa47fa-7c1e-474f-86de-c2563a08e493")
+	)
+	(no_connect
+		(at 22.86 41.91)
+		(uuid "d6d75687-2701-4d9b-b87e-e8a3979f3459")
 	)
 	(no_connect
 		(at 245.11 115.57)
@@ -6637,6 +6647,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 142.24) (xy 60.96 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10213437-9cb1-41af-a3e4-1f7da3af5241")
+	)
+	(wire
+		(pts
 			(xy 224.79 110.49) (xy 224.79 116.84)
 		)
 		(stroke
@@ -6767,13 +6787,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 142.24) (xy 69.85 142.24)
+			(xy 60.96 142.24) (xy 69.85 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19f38529-1252-4896-aa35-5550f539f0c7")
+		(uuid "1c88c984-834f-4459-b750-05d8aa6d7a52")
 	)
 	(wire
 		(pts
@@ -7507,7 +7527,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 132.08) (xy 60.96 149.86)
+			(xy 60.96 132.08) (xy 60.96 142.24)
 		)
 		(stroke
 			(width 0)
@@ -8934,16 +8954,6 @@
 			(justify left bottom)
 		)
 		(uuid "1e534050-104c-4435-9812-ac81bcb80128")
-	)
-	(label "RFSH"
-		(at 63.5 142.24 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1fa8f00a-e0c5-405e-8ee5-fb92046b40ff")
 	)
 	(label "A7"
 		(at 85.09 44.45 0)
