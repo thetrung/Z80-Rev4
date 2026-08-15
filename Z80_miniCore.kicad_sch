@@ -2834,6 +2834,615 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Network08"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "RN"
+				(at -12.7 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Network08"
+				(at 10.16 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_THT:R_Array_SIP9"
+				(at 12.065 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "8 resistor network, star topology, bussed resistors, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R network star-topology"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R?Array?SIP*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Network08_0_1"
+				(rectangle
+					(start -11.43 -3.175)
+					(end 8.89 3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -10.922 1.524)
+					(end -9.398 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -10.16 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 1.524) (xy -10.16 2.286) (xy -7.62 2.286) (xy -7.62 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -10.16 -2.54) (xy -10.16 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -8.382 1.524)
+					(end -6.858 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -7.62 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 1.524) (xy -7.62 2.286) (xy -5.08 2.286) (xy -5.08 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -2.54) (xy -7.62 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -5.842 1.524)
+					(end -4.318 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -5.08 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.524) (xy -5.08 2.286) (xy -2.54 2.286) (xy -2.54 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -3.302 1.524)
+					(end -1.778 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.524) (xy -2.54 2.286) (xy 0 2.286) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -0.762 1.524)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0 2.286) (xy 2.54 2.286) (xy 2.54 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.778 1.524)
+					(end 3.302 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.524) (xy 2.54 2.286) (xy 5.08 2.286) (xy 5.08 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 4.318 1.524)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.08 2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.524) (xy 5.08 2.286) (xy 7.62 2.286) (xy 7.62 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 6.858 1.524)
+					(end 8.382 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Network08_1_1"
+				(pin passive line
+					(at -10.16 5.08 270)
+					(length 2.54)
+					(name "common"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 90)
+					(length 1.27)
+					(name "R1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 90)
+					(length 1.27)
+					(name "R2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 90)
+					(length 1.27)
+					(name "R3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 90)
+					(length 1.27)
+					(name "R4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "R5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 1.27)
+					(name "R6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 90)
+					(length 1.27)
+					(name "R7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 1.27)
+					(name "R8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Microchip_PIC18:PIC18F4520-xP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5912,6 +6521,28 @@
 		)
 		(uuid "018c53c4-c76d-4394-b4f7-50cd10fdaabf")
 	)
+	(text "Active-LOW:\nDefault as DISABLED.\nOnly REQUEST on LOW(0)."
+		(exclude_from_sim no)
+		(at 14.224 104.14 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "047c7b28-ab2a-464a-9f30-a78fa59f799f")
+	)
+	(text "Active-LOW:\nNeed to Pull-Up HIGH.\nTo signal the Z80 when \nan SD card read finishes."
+		(exclude_from_sim no)
+		(at 14.224 152.908 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "0d20c1e5-684f-4021-b9ad-ad659f0eaaff")
+	)
 	(text "Tells SRAM to lock in data from \nthe bus during a write cycle."
 		(exclude_from_sim no)
 		(at 127.762 56.388 0)
@@ -5934,17 +6565,6 @@
 		)
 		(uuid "13ac099a-951a-456b-92ae-e48fcc99db73")
 	)
-	(text "Active-LOW:\nNeed to Pull-Up HIGH.\nTo signal the Z80 when \nan SD card read finishes."
-		(exclude_from_sim no)
-		(at 16.764 152.908 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "16093ca7-ebe7-409d-aac9-84e3b6099bcb")
-	)
 	(text "Active-LOW:\nuse it as a sink.\nCPU HALT -> 0V\nCPU EXEC -> 5V\ncurrent = ~5mA"
 		(exclude_from_sim no)
 		(at 17.018 163.068 0)
@@ -5955,6 +6575,17 @@
 			(justify left)
 		)
 		(uuid "1daaf462-c4b8-4676-b480-cd95db097dfa")
+	)
+	(text "Active-LOW:\nDefault as DISABLED.\nOnly READ on LOW(0)."
+		(exclude_from_sim no)
+		(at 13.97 116.586 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "21b11cc6-8177-4bef-8053-4015e9f93875")
 	)
 	(text "ICSP"
 		(exclude_from_sim no)
@@ -5976,26 +6607,16 @@
 		)
 		(uuid "22adb66e-9782-4daa-a776-f18e65d0d0ed")
 	)
-	(text "Active-LOW:\nDefault as DISABLED.\nOnly Write on LOW(0)."
+	(text "Active-LOW:\nDefault as DISABLED.\nOnly REQUEST on LOW(0)."
 		(exclude_from_sim no)
-		(at 16.51 122.936 0)
+		(at 13.97 110.236 0)
 		(effects
 			(font
 				(size 0.635 0.635)
 			)
 			(justify left)
 		)
-		(uuid "32ad7d70-4a8d-40a5-90ac-be44627792cd")
-	)
-	(text ""
-		(exclude_from_sim no)
-		(at 43.942 136.398 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "38a061d1-2f8c-4abf-8fd4-693e0f657046")
+		(uuid "24461067-3b1f-4344-8a2f-62512f55cb2b")
 	)
 	(text "> Bus : Ready ? Busy."
 		(exclude_from_sim no)
@@ -6028,28 +6649,6 @@
 			)
 		)
 		(uuid "57370fa1-dd18-48a6-8eb7-0c8a7a0ba8d0")
-	)
-	(text "Active-LOW:\nDefault as DISABLED.\nOnly REQUEST on LOW(0)."
-		(exclude_from_sim no)
-		(at 16.764 104.14 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "5a614450-9af8-4779-842e-bf8d893be4ec")
-	)
-	(text "Active-LOW:\nDefault as DISABLED.\nOnly READ on LOW(0)."
-		(exclude_from_sim no)
-		(at 16.51 116.586 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "5c65b761-ab14-45b6-a99c-8caddf97ee0d")
 	)
 	(text "Z80 \nREQ\nINT"
 		(exclude_from_sim no)
@@ -6095,16 +6694,27 @@
 		)
 		(uuid "708f1f66-9bd8-4698-ad73-ac3a214b2a78")
 	)
-	(text "Active-LOW :\nIt must be tied High via \na resistor to prevent random, \nunrecoverable system resets."
+	(text "Active-LOW:\nDisabled by Default.\nOnly need to wait for slow SRAM.\nAS6C4008 is 55ns too fast to wait."
 		(exclude_from_sim no)
-		(at 16.51 137.414 0)
+		(at 14.478 129.794 0)
 		(effects
 			(font
 				(size 0.635 0.635)
 			)
 			(justify left)
 		)
-		(uuid "76524339-098d-40f7-b9f8-c99f7075ea46")
+		(uuid "810b2e3c-e016-4d98-9801-5aa73c78b0a5")
+	)
+	(text "Active-LOW:\nNeed Pull-UP HIGH to keeps \nZ80 running normally until \nPIC requests the bus."
+		(exclude_from_sim no)
+		(at 14.478 145.288 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "8426a582-c051-4a3a-8dc3-7548c06230b9")
 	)
 	(text "I2C"
 		(exclude_from_sim no)
@@ -6126,6 +6736,17 @@
 			(justify left)
 		)
 		(uuid "9a7a7e4a-cf48-469d-82bd-03c60686ea0f")
+	)
+	(text "Active-LOW :\nIt must be tied High via \na resistor to prevent random, \nunrecoverable system resets."
+		(exclude_from_sim no)
+		(at 13.97 137.414 0)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "9be52594-533b-4655-a259-5259feaa40b6")
 	)
 	(text "Active-LOW:\nPull-UP HIGH to Disable. \nLOW to Signal Z80 Reset."
 		(exclude_from_sim no)
@@ -6149,16 +6770,16 @@
 		)
 		(uuid "a8de5504-1720-4b50-b44d-fa8db14be3a4")
 	)
-	(text "Active-LOW:\nDisabled by Default.\nOnly need to wait for slow SRAM.\nAS6C4008 is 55ns too fast to wait."
+	(text "Active-LOW:\nDefault as DISABLED.\nOnly Write on LOW(0)."
 		(exclude_from_sim no)
-		(at 17.018 129.794 0)
+		(at 13.97 122.936 0)
 		(effects
 			(font
 				(size 0.635 0.635)
 			)
 			(justify left)
 		)
-		(uuid "bb5efc6f-bab7-4191-a393-a2a38b31d8f4")
+		(uuid "aa8f9fcd-fe86-4260-9384-8f3fee41cf22")
 	)
 	(text "Fixed 32K RAM \nfrom 0x8000~FFFF"
 		(exclude_from_sim no)
@@ -6170,28 +6791,6 @@
 			(justify left)
 		)
 		(uuid "bbfb6967-1dd2-4505-bda3-1bd1b9cf7415")
-	)
-	(text "Active-LOW:\nDefault as DISABLED.\nOnly REQUEST on LOW(0)."
-		(exclude_from_sim no)
-		(at 16.51 110.236 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "bccfb5be-5543-4c2e-9c27-fe4f135c4c1d")
-	)
-	(text "Active-LOW:\nNeed Pull-UP HIGH to keeps \nZ80 running normally until \nPIC requests the bus."
-		(exclude_from_sim no)
-		(at 17.018 145.288 0)
-		(effects
-			(font
-				(size 0.635 0.635)
-			)
-			(justify left)
-		)
-		(uuid "c2f6c2cb-5431-4f99-b2b6-1525f6d5902e")
 	)
 	(text "CUSTOM MMU FOR 32K-RAM + 32K-ROM :"
 		(exclude_from_sim no)
@@ -6507,6 +7106,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 101.6) (xy 30.48 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025c86d1-6443-48df-99cd-7d6ea59bfd41")
+	)
+	(wire
+		(pts
 			(xy 262.89 52.07) (xy 251.46 52.07)
 		)
 		(stroke
@@ -6577,6 +7186,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 134.62) (xy 33.02 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "097351c2-6abf-4da4-bbc5-eb41969dcd4c")
+	)
+	(wire
+		(pts
 			(xy 63.5 144.78) (xy 69.85 144.78)
 		)
 		(stroke
@@ -6594,6 +7213,16 @@
 			(type default)
 		)
 		(uuid "09e46dce-2cf6-4670-8dfb-262cc1c465e2")
+	)
+	(wire
+		(pts
+			(xy 30.48 115.57) (xy 35.56 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a59f814-a4b2-4111-be93-eaa86adef8d9")
 	)
 	(wire
 		(pts
@@ -6634,6 +7263,16 @@
 			(type default)
 		)
 		(uuid "0ef9a3d7-52e8-4bf6-91b7-70fa112ca209")
+	)
+	(wire
+		(pts
+			(xy 35.56 130.81) (xy 34.29 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fc4f4c6-fbc8-4689-b3ca-65a7a53cfb66")
 	)
 	(wire
 		(pts
@@ -6787,6 +7426,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 128.27) (xy 33.02 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bce39ae-4b96-45fe-ac58-d0f8784ad8a1")
+	)
+	(wire
+		(pts
 			(xy 60.96 142.24) (xy 69.85 142.24)
 		)
 		(stroke
@@ -6877,16 +7526,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 149.86) (xy 16.51 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22ab9427-e7fa-452e-bc51-85a0a2cd2398")
-	)
-	(wire
-		(pts
 			(xy 105.41 180.34) (xy 118.11 180.34)
 		)
 		(stroke
@@ -6894,6 +7533,16 @@
 			(type default)
 		)
 		(uuid "2497f46e-9a23-4cd5-a150-5b7517675f6c")
+	)
+	(wire
+		(pts
+			(xy 13.97 127) (xy 26.67 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "264e5423-5803-41b1-8cb1-9dd2589309ae")
 	)
 	(wire
 		(pts
@@ -7017,6 +7666,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 128.27) (xy 33.02 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3117185c-93d5-43d4-8b7a-bb41a2145c28")
+	)
+	(wire
+		(pts
 			(xy 176.53 149.86) (xy 184.15 149.86)
 		)
 		(stroke
@@ -7064,16 +7723,6 @@
 			(type default)
 		)
 		(uuid "36c6b4ed-710a-405b-90dd-219c8da7c6ea")
-	)
-	(wire
-		(pts
-			(xy 27.94 120.65) (xy 16.51 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "379bccb8-e1cb-4628-9817-651b39ad3f9a")
 	)
 	(wire
 		(pts
@@ -7137,6 +7786,26 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 133.35) (xy 35.56 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fbbd906-3022-46a3-9316-aa270f977b30")
+	)
+	(wire
+		(pts
+			(xy 27.94 114.3) (xy 27.94 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fcbf9d8-077c-493a-b13c-f57f53b669dc")
+	)
+	(wire
+		(pts
 			(xy 85.09 34.29) (xy 91.44 34.29)
 		)
 		(stroke
@@ -7167,16 +7836,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 107.95) (xy 16.51 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "425a19e7-e2b4-42f7-815c-0bb40274c589")
-	)
-	(wire
-		(pts
 			(xy 176.53 157.48) (xy 184.15 157.48)
 		)
 		(stroke
@@ -7184,6 +7843,16 @@
 			(type default)
 		)
 		(uuid "436b5ce2-3192-4fe3-8130-4c670e7569f8")
+	)
+	(wire
+		(pts
+			(xy 26.67 120.65) (xy 26.67 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44324320-4304-407a-ae20-25d9e1578c95")
 	)
 	(wire
 		(pts
@@ -7287,6 +7956,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 123.19) (xy 35.56 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5488fc84-c0a6-4cb7-a00e-e03a35695479")
+	)
+	(wire
+		(pts
 			(xy 196.85 120.65) (xy 196.85 121.92)
 		)
 		(stroke
@@ -7297,13 +7976,13 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 127) (xy 27.94 127)
+			(xy 13.97 149.86) (xy 35.56 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56b462d9-52ab-4319-b86c-6e2b5735238c")
+		(uuid "56db4b66-6641-4d22-8ef4-7842196668db")
 	)
 	(wire
 		(pts
@@ -7447,16 +8126,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 142.24) (xy 16.51 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "653c906f-cd6f-4090-a90a-afd801a7253a")
-	)
-	(wire
-		(pts
 			(xy 151.13 34.29) (xy 157.48 34.29)
 		)
 		(stroke
@@ -7577,6 +8246,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 107.95) (xy 29.21 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a3f6a02-41f5-4351-a673-b4b8fdda9fe0")
+	)
+	(wire
+		(pts
 			(xy 63.5 41.91) (xy 72.39 41.91)
 		)
 		(stroke
@@ -7607,6 +8286,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 107.95) (xy 13.97 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c3b9990-1139-4ca4-b223-d0b80910ff1e")
+	)
+	(wire
+		(pts
 			(xy 118.11 187.96) (xy 132.08 187.96)
 		)
 		(stroke
@@ -7617,13 +8306,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 114.3) (xy 16.51 114.3)
+			(xy 13.97 142.24) (xy 34.29 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7f0fb6ad-b3c2-445b-b6f5-7a928fb4410f")
+		(uuid "7ff2a6c9-68e7-405b-bb64-171a00a4cee7")
 	)
 	(wire
 		(pts
@@ -7717,6 +8406,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 120.65) (xy 26.67 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92e4aece-a5e9-4cbb-87c8-8caf4e0a9b00")
+	)
+	(wire
+		(pts
 			(xy 229.87 143.51) (xy 224.79 143.51)
 		)
 		(stroke
@@ -7737,6 +8436,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 125.73) (xy 35.56 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93531321-79d6-4a3a-8d72-8174d37528be")
+	)
+	(wire
+		(pts
 			(xy 267.97 148.59) (xy 261.62 148.59)
 		)
 		(stroke
@@ -7754,6 +8463,26 @@
 			(type default)
 		)
 		(uuid "94eafee0-b99e-49d2-a636-c0edbef7a26e")
+	)
+	(wire
+		(pts
+			(xy 34.29 130.81) (xy 34.29 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9704b116-99be-47ba-a51a-b3df29d64dd9")
+	)
+	(wire
+		(pts
+			(xy 29.21 118.11) (xy 35.56 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972e8619-ea47-4074-8118-7f4b7300f036")
 	)
 	(wire
 		(pts
@@ -7994,16 +8723,6 @@
 			(type default)
 		)
 		(uuid "b1b75711-d8ef-4afa-a39b-eae86c22f6fa")
-	)
-	(wire
-		(pts
-			(xy 27.94 101.6) (xy 16.51 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b24cfc14-5a51-490a-a772-b805e2cd8e82")
 	)
 	(wire
 		(pts
@@ -8407,6 +9126,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 120.65) (xy 35.56 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6818acf-eda0-4f4c-8e05-abd6984ecdba")
+	)
+	(wire
+		(pts
 			(xy 208.28 74.93) (xy 220.98 74.93)
 		)
 		(stroke
@@ -8547,16 +9276,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 134.62) (xy 16.51 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7b33fee-0c85-4eeb-bc91-9f318aa0ed15")
-	)
-	(wire
-		(pts
 			(xy 262.89 46.99) (xy 251.46 46.99)
 		)
 		(stroke
@@ -8637,6 +9356,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 114.3) (xy 13.97 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1cb0ba-6aa2-4542-a752-4b28b2324f8d")
+	)
+	(wire
+		(pts
 			(xy 237.49 123.19) (xy 237.49 121.92)
 		)
 		(stroke
@@ -8687,6 +9416,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 101.6) (xy 30.48 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5d03a17-2f3f-4081-9f25-9ef88ab2ddff")
+	)
+	(wire
+		(pts
 			(xy 33.02 170.18) (xy 35.56 170.18)
 		)
 		(stroke
@@ -8694,6 +9433,16 @@
 			(type default)
 		)
 		(uuid "f6765afa-7131-468e-952a-4c3b603cc78a")
+	)
+	(wire
+		(pts
+			(xy 26.67 127) (xy 26.67 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f878aec5-9d23-4265-af58-242ccf399526")
 	)
 	(wire
 		(pts
@@ -8734,6 +9483,16 @@
 			(justify right bottom)
 		)
 		(uuid "0183195b-b804-4488-b76b-3e4d199bfed7")
+	)
+	(label "MREQ"
+		(at 13.97 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "01d91e29-fc69-4f70-963f-91d23eefb0f1")
 	)
 	(label "BUTTON"
 		(at 208.28 41.91 0)
@@ -8995,6 +9754,16 @@
 		)
 		(uuid "28db5575-79a4-4d6d-9eae-9b5cd482583c")
 	)
+	(label "NMI"
+		(at 13.97 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28eaa02c-11b8-4707-a1f7-5481e21ea157")
+	)
 	(label "MOSI"
 		(at 208.28 49.53 0)
 		(effects
@@ -9155,15 +9924,15 @@
 		)
 		(uuid "49f78872-1fd0-4b24-9983-0dcbd56152f3")
 	)
-	(label "BUSREQ"
-		(at 16.51 142.24 0)
+	(label "RD"
+		(at 13.97 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "50041d6e-922e-411d-9cc5-5dca60517219")
+		(uuid "4a925ff9-4e6a-4217-9b5a-5df25bff5f56")
 	)
 	(label "VCC"
 		(at 224.79 115.57 90)
@@ -9505,16 +10274,6 @@
 		)
 		(uuid "89fd1c1f-4a0a-4afa-80df-2587acd5a04a")
 	)
-	(label "IORQ"
-		(at 16.51 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ac86957-f3ba-4f72-aa37-f2744f1a9892")
-	)
 	(label "OSC2"
 		(at 214.63 95.25 180)
 		(effects
@@ -9605,16 +10364,6 @@
 		)
 		(uuid "9a66bb4f-4a78-41df-8fa6-993e08c3ac0a")
 	)
-	(label "MREQ"
-		(at 16.51 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9badebf2-a4e3-43fe-b7c5-39ffc4bf74f4")
-	)
 	(label "A7"
 		(at 151.13 49.53 0)
 		(effects
@@ -9695,15 +10444,15 @@
 		)
 		(uuid "aa06deea-aac8-49c8-b54b-769303272eaa")
 	)
-	(label "INT"
-		(at 16.51 149.86 0)
+	(label "BUSREQ"
+		(at 13.97 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "aa4beb7d-109d-4a0a-a3ad-d0f08ead1d8a")
+		(uuid "aa8489b5-6391-4221-b764-1b5674108a57")
 	)
 	(label "SRAM_CE"
 		(at 101.6 129.54 180)
@@ -9714,6 +10463,16 @@
 			(justify right bottom)
 		)
 		(uuid "ae535c1b-22fe-4b89-93c7-b03546d25be6")
+	)
+	(label "INT"
+		(at 13.97 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aee773ad-c0e2-4a88-87be-7de9f650e51b")
 	)
 	(label "A1"
 		(at 208.28 36.83 0)
@@ -9734,6 +10493,16 @@
 			(justify left bottom)
 		)
 		(uuid "b30da990-f39f-4113-a3d0-0787ebe66fdc")
+	)
+	(label "WAIT"
+		(at 13.97 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b61df28a-1a77-4fb3-bad3-a666bcc266e3")
 	)
 	(label "D2"
 		(at 262.89 69.85 180)
@@ -9875,15 +10644,15 @@
 		)
 		(uuid "bbc1641e-e623-4fa1-8ee7-b177a43b10c4")
 	)
-	(label "RD"
-		(at 16.51 114.3 0)
+	(label "IORQ"
+		(at 13.97 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "bc6de816-e60d-4bfb-836e-c8e7ba9bb340")
+		(uuid "bc4e2b0d-f156-4b6c-9584-c203dc88bbf7")
 	)
 	(label "D0"
 		(at 123.19 26.67 180)
@@ -9914,6 +10683,16 @@
 			(justify right bottom)
 		)
 		(uuid "bed19759-f234-4626-87a7-b42416a6b1dc")
+	)
+	(label "WR"
+		(at 13.97 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bfb5661e-1952-4bde-99ce-cbe1f15ead2b")
 	)
 	(label "RD"
 		(at 208.28 72.39 0)
@@ -10044,16 +10823,6 @@
 			(justify left bottom)
 		)
 		(uuid "dbe0026b-89b3-4041-8229-3cb9e644b85b")
-	)
-	(label "NMI"
-		(at 16.51 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc615d75-72ce-45a8-8f77-068214dc5b82")
 	)
 	(label "A8"
 		(at 72.39 46.99 180)
@@ -10235,16 +11004,6 @@
 		)
 		(uuid "f128b2ec-f35f-46c5-b175-265905fe1c50")
 	)
-	(label "WAIT"
-		(at 16.51 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2e1f0fa-a80f-4fac-b89d-88b946c77d11")
-	)
 	(label "D5"
 		(at 123.19 39.37 180)
 		(effects
@@ -10264,16 +11023,6 @@
 			(justify left bottom)
 		)
 		(uuid "f2e6f635-50ec-49b9-bd58-2ba2765768f5")
-	)
-	(label "WR"
-		(at 16.51 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f58d8ed4-6cb8-4de0-a4de-dffc8b7eda68")
 	)
 	(label "WR"
 		(at 127 57.15 180)
@@ -10832,7 +11581,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.4mm_W2.1mm_P2.50mm"
+		(property "Footprint" "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm"
 			(at 156.5148 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -11116,168 +11865,6 @@
 			(project "Z80_miniCore"
 				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.75 114.3 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "297ff522-dd31-4171-aee1-067c426093e6")
-		(property "Reference" "R11"
-			(at 33.02 112.014 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 33.782 114.3 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 31.75 116.078 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "30de511c-c80d-4efa-a71a-7a1e55f4314d")
-		)
-		(pin "1"
-			(uuid "d3adc561-f1ca-4233-8907-b83bd47c00e1")
-		)
-		(instances
-			(project "Z80_miniCore"
-				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.75 120.65 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2bf29165-50dd-4387-957e-e5710d3b1dac")
-		(property "Reference" "R9"
-			(at 33.02 118.364 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 33.782 120.65 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 31.75 122.428 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "09c2d172-adef-4ec9-8c2d-315a42221e0e")
-		)
-		(pin "1"
-			(uuid "23115148-e235-4460-b380-d7a318a7a24d")
-		)
-		(instances
-			(project "Z80_miniCore"
-				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -11574,7 +12161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 189.23 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -11657,7 +12244,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "10uF"
 			(at 254 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11711,85 +12298,6 @@
 			(project "Z80_miniCore"
 				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 35.56 127 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bd7f4df-601e-4e4b-843c-cb9c1f14727c")
-		(property "Reference" "#PWR024"
-			(at 31.75 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 39.37 126.9999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 35.56 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb9df807-ed41-4f1d-ba0d-c79532531082")
-		)
-		(instances
-			(project "Z80_miniCore"
-				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12067,7 +12575,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "10K"
 			(at 41.402 160.02 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12365,85 +12873,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 31.75 127 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "75f72f42-69b1-4670-8945-c119b6ef8d1d")
-		(property "Reference" "R4"
-			(at 32.004 124.968 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 32.004 127 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 31.75 128.778 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2d831e47-6ced-4ad7-856c-52f50057262a")
-		)
-		(pin "2"
-			(uuid "37183bab-0dc9-4614-8331-1c6ca86de281")
-		)
-		(instances
-			(project "Z80_miniCore"
-				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 196.85 120.65 0)
 		(unit 1)
@@ -12523,7 +12952,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 35.56 149.86 270)
+		(at 45.72 115.57 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12531,10 +12960,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7db4e4da-137b-41fe-9873-3ac279fd8ebf")
 		(property "Reference" "#PWR026"
-			(at 31.75 149.86 0)
+			(at 41.91 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12545,7 +12973,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 39.37 149.8599 90)
+			(at 48.514 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12556,7 +12984,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 149.86 0)
+			(at 45.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12567,7 +12995,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 149.86 0)
+			(at 45.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12578,7 +13006,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 35.56 149.86 0)
+			(at 45.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13252,326 +13680,6 @@
 			(project "Z80_miniCore"
 				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 35.56 114.3 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "984f512a-783d-4b8d-9234-b6e1563b8d7e")
-		(property "Reference" "#PWR034"
-			(at 31.75 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 39.37 114.2999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 35.56 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a8bd80d-94fd-4563-ba07-c59800d24056")
-		)
-		(instances
-			(project "Z80_miniCore"
-				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.75 101.6 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9a67f87d-fd40-41a6-84bf-7ebc0cc1e120")
-		(property "Reference" "R12"
-			(at 33.02 99.314 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 33.782 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 31.75 103.378 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c34ec71c-533d-40d0-9806-9499206e6768")
-		)
-		(pin "1"
-			(uuid "45424314-bd5c-4474-9917-2c66bc166d8b")
-		)
-		(instances
-			(project "Z80_miniCore"
-				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.75 107.95 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9f9fa44a-bc4a-4ad8-857c-f18d9b31b3da")
-		(property "Reference" "R10"
-			(at 33.02 105.664 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 33.782 107.95 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 31.75 109.728 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f8591737-2df6-401a-af63-08c11d385818")
-		)
-		(pin "1"
-			(uuid "c3cfb331-bda5-447e-9731-3fc5a4e0edb3")
-		)
-		(instances
-			(project "Z80_miniCore"
-				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 35.56 134.62 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0954128-aa97-4e7f-9cb2-2deb0f0de387")
-		(property "Reference" "#PWR025"
-			(at 31.75 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 39.37 134.6199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 35.56 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "501e0f77-ecd1-4d14-bf32-d102a87a3037")
-		)
-		(instances
-			(project "Z80_miniCore"
-				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -14498,8 +14606,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 35.56 142.24 270)
+		(lib_id "Device:R_Network08")
+		(at 40.64 125.73 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14508,9 +14616,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ba044361-8f03-4412-b72c-cae245b85194")
-		(property "Reference" "#PWR027"
-			(at 31.75 142.24 0)
+		(uuid "bbd80c7c-b1cd-417f-bb60-3c7b7835d03c")
+		(property "Reference" "RN1"
+			(at 40.386 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Network08"
+			(at 40.386 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP9"
+			(at 40.64 137.795 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14520,19 +14648,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
-			(at 39.37 142.2399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 142.24 0)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 40.64 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14542,19 +14659,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 35.56 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 35.56 142.24 0)
+		(property "Description" "8 resistor network, star topology, bussed resistors, small symbol"
+			(at 40.64 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14565,172 +14671,36 @@
 			)
 		)
 		(pin "1"
-			(uuid "c10228c5-141f-4ba5-9f18-9b448dc086b5")
-		)
-		(instances
-			(project "Z80_miniCore"
-				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 35.56 107.95 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba793197-25cc-4847-86b5-ccea11af23c8")
-		(property "Reference" "#PWR033"
-			(at 31.75 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 39.37 107.9499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 35.56 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5949b9c1-10b4-41f6-8f5d-1626bd4502f7")
-		)
-		(instances
-			(project "Z80_miniCore"
-				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.75 142.24 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bde28b47-0559-4f2a-87ee-f4006f73e1f5")
-		(property "Reference" "R7"
-			(at 33.274 139.954 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 33.782 142.24 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 31.75 144.018 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+			(uuid "0492fb21-b944-48d3-98f0-f4ec1dc0c3ca")
 		)
 		(pin "2"
-			(uuid "0d7d086c-fc64-4449-8fa7-b83a5e756dfa")
+			(uuid "fcb3cd9e-046b-4856-8961-b6082d690e92")
 		)
-		(pin "1"
-			(uuid "dedd8f59-a683-4ba7-bad0-253e35c32f32")
+		(pin "3"
+			(uuid "8a865a7d-05ec-4874-96f2-99e418f49904")
+		)
+		(pin "4"
+			(uuid "d96c9eda-37cf-414f-917c-9ae3df12f607")
+		)
+		(pin "5"
+			(uuid "94329a1f-5c76-4723-aee9-d9c24a91d851")
+		)
+		(pin "6"
+			(uuid "3bc81b60-d8ff-498b-ac4c-176a81c2ef7d")
+		)
+		(pin "7"
+			(uuid "7af7334d-2744-4a54-8cac-7d05aa60b673")
+		)
+		(pin "8"
+			(uuid "31e6b5c4-e524-44f7-b550-5167b1ab91d8")
+		)
+		(pin "9"
+			(uuid "7f45a864-81df-4db8-ab9c-11b0dd4237a5")
 		)
 		(instances
 			(project "Z80_miniCore"
 				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "R7")
+					(reference "RN1")
 					(unit 1)
 				)
 			)
@@ -15340,245 +15310,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 35.56 101.6 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ccf317e2-0ff8-4f1f-8675-5b8d4223ffa2")
-		(property "Reference" "#PWR036"
-			(at 31.75 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 39.37 101.5999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 35.56 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7f2aa691-eb01-43b0-836e-d27c45044bb6")
-		)
-		(instances
-			(project "Z80_miniCore"
-				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.75 149.86 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d0e8ef96-c065-419c-87d4-082415da9f31")
-		(property "Reference" "R5"
-			(at 33.274 147.574 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 33.782 149.86 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 31.75 151.638 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f36bc57e-965a-43f0-af82-b625568a7424")
-		)
-		(pin "1"
-			(uuid "a36691f9-9b87-4462-ba73-b82a1bb7edac")
-		)
-		(instances
-			(project "Z80_miniCore"
-				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.75 134.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d2244eee-7c9a-4f65-94e6-413e69512c3b")
-		(property "Reference" "R6"
-			(at 31.75 132.588 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 31.75 134.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 31.75 136.398 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "37ea1d95-c2f3-42db-92d7-760e8a59d700")
-		)
-		(pin "2"
-			(uuid "07d5b64a-6388-4b7c-9486-012857989077")
-		)
-		(instances
-			(project "Z80_miniCore"
-				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 48.26 97.79 0)
 		(unit 1)
@@ -15651,85 +15382,6 @@
 			(project "Z80_miniCore"
 				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 35.56 120.65 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3dd00b2-4709-402d-916f-9fb013ab31ee")
-		(property "Reference" "#PWR029"
-			(at 31.75 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 39.37 120.6499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 35.56 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0212f6c-d837-48dc-b6a2-db0d4cecd404")
-		)
-		(instances
-			(project "Z80_miniCore"
-				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -15838,7 +15490,7 @@
 				)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "10K"
 			(at 39.116 170.18 90)
 			(show_name no)
 			(do_not_autoplace no)
